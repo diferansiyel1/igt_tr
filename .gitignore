@@ -1,0 +1,40 @@
+# Build artifacts
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Test results
+Sonuclar/*.csv
+Sonuclar/*.png
+Sonuclar/*.txt
+Sonuclar/*.log
+Sonuclar/*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
+

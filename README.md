@@ -1,5 +1,7 @@
 # PyIGT-Shimmer: Iowa Gambling Task v3.0
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18071106.svg)](https://doi.org/10.5281/zenodo.18071106)
+
 A modern Python implementation of the Iowa Gambling Task (IGT) with real-time physiological data synchronization via Shimmer3 GSR+ sensors.
 
 ## Key Features

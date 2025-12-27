@@ -20,3 +20,521 @@
 2025-12-27 21:48:11,044 - INFO - ▶️ Trial 2 başladı, kartlar aktif
 2025-12-27 21:48:11,606 - INFO - 🃏 Kart C tıklandı
 2025-12-27 21:48:11,607 - INFO - ⏱️ Reaksiyon zamanı: 0.563 sn
+2025-12-27 22:44:00,992 - INFO - 🚀 IGT Uygulaması başlatıldı
+2025-12-27 22:44:05,629 - INFO - 🌍 Language selected: EN | Currency: USD
+2025-12-27 22:44:11,010 - INFO - ✅ Katılımcı bilgileri: {'subject_id': 'D20251227_224407044', 'age': 25, 'gender': 'E'}
+2025-12-27 23:13:09,595 - INFO - 🚀 IGT Uygulaması başlatıldı
+2025-12-27 23:13:14,222 - INFO - 🌍 Language selected: EN | Currency: USD
+2025-12-27 23:13:22,805 - INFO - ✅ Participant info: {'subject_id': 'D20251227_231316755', 'age': 25, 'gender': 'M'}
+2025-12-27 23:13:30,157 - INFO - ============================================================
+2025-12-27 23:13:30,157 - INFO - 🔄 SYNC_MARKER: 2025-12-27T23:13:30.157417
+2025-12-27 23:13:30,158 - INFO -    Timestamp: 2025-12-27 23:13:30.157417
+2025-12-27 23:13:30,158 - INFO - ============================================================
+2025-12-27 23:13:32,659 - INFO - 
+============================================================
+2025-12-27 23:13:32,659 - INFO - 🎮 EXPERIMENT STARTING
+2025-12-27 23:13:32,660 - INFO -    Subject: D20251227_231316755
+2025-12-27 23:13:32,660 - INFO -    Age: 25
+2025-12-27 23:13:32,660 - INFO -    Gender: M
+2025-12-27 23:13:32,660 - INFO -    Start Time: 2025-12-27T23:13:30.157417
+2025-12-27 23:13:32,660 - INFO -    ✅ Synced with Shimmer countdown
+2025-12-27 23:13:32,660 - INFO - ============================================================
+
+2025-12-27 23:13:32,764 - INFO - ▶️ Trial 1 başladı, kartlar aktif
+2025-12-27 23:13:34,139 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:13:34,139 - INFO - ⏱️ Reaksiyon zamanı: 1.375 sn
+2025-12-27 23:13:36,158 - INFO - ▶️ Trial 2 başladı, kartlar aktif
+2025-12-27 23:13:37,722 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:13:37,723 - INFO - ⏱️ Reaksiyon zamanı: 1.565 sn
+2025-12-27 23:13:39,658 - INFO - ▶️ Trial 3 başladı, kartlar aktif
+2025-12-27 23:13:43,176 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:13:43,176 - INFO - ⏱️ Reaksiyon zamanı: 3.519 sn
+2025-12-27 23:13:45,158 - INFO - ▶️ Trial 4 başladı, kartlar aktif
+2025-12-27 23:16:29,273 - INFO - 🚀 IGT Uygulaması başlatıldı
+2025-12-27 23:16:30,922 - INFO - 🌍 Language selected: EN | Currency: USD
+2025-12-27 23:16:32,971 - INFO - ✅ Participant info: {'subject_id': 'D20251227_231632038', 'age': 25, 'gender': 'M'}
+2025-12-27 23:16:39,658 - INFO - ============================================================
+2025-12-27 23:16:39,660 - INFO - 🔄 SYNC_MARKER: 2025-12-27T23:16:39.658858
+2025-12-27 23:16:39,660 - INFO -    Timestamp: 2025-12-27 23:16:39.658858
+2025-12-27 23:16:39,660 - INFO - ============================================================
+2025-12-27 23:16:42,160 - INFO - 
+============================================================
+2025-12-27 23:16:42,160 - INFO - 🎮 EXPERIMENT STARTING
+2025-12-27 23:16:42,160 - INFO -    Subject: D20251227_231632038
+2025-12-27 23:16:42,160 - INFO -    Age: 25
+2025-12-27 23:16:42,160 - INFO -    Gender: M
+2025-12-27 23:16:42,161 - INFO -    Start Time: 2025-12-27T23:16:39.658858
+2025-12-27 23:16:42,161 - INFO -    ✅ Synced with Shimmer countdown
+2025-12-27 23:16:42,161 - INFO - ============================================================
+
+2025-12-27 23:16:42,266 - INFO - ▶️ Trial 1 başladı, kartlar aktif
+2025-12-27 23:16:43,355 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:16:43,355 - INFO - ⏱️ Reaksiyon zamanı: 1.090 sn
+2025-12-27 23:16:45,269 - INFO - ▶️ Trial 2 başladı, kartlar aktif
+2025-12-27 23:16:45,456 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:16:45,456 - INFO - ⏱️ Reaksiyon zamanı: 0.187 sn
+2025-12-27 23:16:47,567 - INFO - ▶️ Trial 3 başladı, kartlar aktif
+2025-12-27 23:16:48,873 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:16:48,874 - INFO - ⏱️ Reaksiyon zamanı: 1.307 sn
+2025-12-27 23:16:50,787 - INFO - ▶️ Trial 4 başladı, kartlar aktif
+2025-12-27 23:16:51,670 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:16:51,670 - INFO - ⏱️ Reaksiyon zamanı: 0.883 sn
+2025-12-27 23:16:53,658 - INFO - ▶️ Trial 5 başladı, kartlar aktif
+2025-12-27 23:16:55,123 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:16:55,123 - INFO - ⏱️ Reaksiyon zamanı: 1.466 sn
+2025-12-27 23:16:57,158 - INFO - ▶️ Trial 6 başladı, kartlar aktif
+2025-12-27 23:16:57,672 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:16:57,673 - INFO - ⏱️ Reaksiyon zamanı: 0.515 sn
+2025-12-27 23:16:59,658 - INFO - ▶️ Trial 7 başladı, kartlar aktif
+2025-12-27 23:17:00,289 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:17:00,290 - INFO - ⏱️ Reaksiyon zamanı: 0.632 sn
+2025-12-27 23:17:02,200 - INFO - ▶️ Trial 8 başladı, kartlar aktif
+2025-12-27 23:17:02,979 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:17:02,979 - INFO - ⏱️ Reaksiyon zamanı: 0.779 sn
+2025-12-27 23:17:05,092 - INFO - ▶️ Trial 9 başladı, kartlar aktif
+2025-12-27 23:17:05,772 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:17:05,772 - INFO - ⏱️ Reaksiyon zamanı: 0.681 sn
+2025-12-27 23:17:07,683 - INFO - ▶️ Trial 10 başladı, kartlar aktif
+2025-12-27 23:17:08,372 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:17:08,373 - INFO - ⏱️ Reaksiyon zamanı: 0.690 sn
+2025-12-27 23:17:10,285 - INFO - ▶️ Trial 11 başladı, kartlar aktif
+2025-12-27 23:17:10,989 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:17:10,990 - INFO - ⏱️ Reaksiyon zamanı: 0.705 sn
+2025-12-27 23:17:13,101 - INFO - ▶️ Trial 12 başladı, kartlar aktif
+2025-12-27 23:17:13,606 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:17:13,606 - INFO - ⏱️ Reaksiyon zamanı: 0.505 sn
+2025-12-27 23:17:15,658 - INFO - ▶️ Trial 13 başladı, kartlar aktif
+2025-12-27 23:17:16,040 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:17:16,040 - INFO - ⏱️ Reaksiyon zamanı: 0.382 sn
+2025-12-27 23:17:18,152 - INFO - ▶️ Trial 14 başladı, kartlar aktif
+2025-12-27 23:17:18,606 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:17:18,606 - INFO - ⏱️ Reaksiyon zamanı: 0.454 sn
+2025-12-27 23:17:20,658 - INFO - ▶️ Trial 15 başladı, kartlar aktif
+2025-12-27 23:17:21,173 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:17:21,173 - INFO - ⏱️ Reaksiyon zamanı: 0.516 sn
+2025-12-27 23:17:23,158 - INFO - ▶️ Trial 16 başladı, kartlar aktif
+2025-12-27 23:17:24,845 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:17:24,845 - INFO - ⏱️ Reaksiyon zamanı: 1.688 sn
+2025-12-27 23:17:26,756 - INFO - ▶️ Trial 17 başladı, kartlar aktif
+2025-12-27 23:17:27,239 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:17:27,240 - INFO - ⏱️ Reaksiyon zamanı: 0.483 sn
+2025-12-27 23:17:29,158 - INFO - ▶️ Trial 18 başladı, kartlar aktif
+2025-12-27 23:21:18,039 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:21:18,040 - INFO - ⏱️ Reaksiyon zamanı: 452.882 sn
+2025-12-27 23:21:20,156 - INFO - ▶️ Trial 5 başladı, kartlar aktif
+2025-12-27 23:21:20,772 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:21:20,773 - INFO - ⏱️ Reaksiyon zamanı: 0.616 sn
+2025-12-27 23:21:22,684 - INFO - ▶️ Trial 6 başladı, kartlar aktif
+2025-12-27 23:21:23,272 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:21:23,272 - INFO - ⏱️ Reaksiyon zamanı: 0.588 sn
+2025-12-27 23:21:25,184 - INFO - ▶️ Trial 7 başladı, kartlar aktif
+2025-12-27 23:21:25,886 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:21:25,886 - INFO - ⏱️ Reaksiyon zamanı: 0.702 sn
+2025-12-27 23:21:27,792 - INFO - ▶️ Trial 8 başladı, kartlar aktif
+2025-12-27 23:21:28,572 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:21:28,572 - INFO - ⏱️ Reaksiyon zamanı: 0.780 sn
+2025-12-27 23:21:30,657 - INFO - ▶️ Trial 9 başladı, kartlar aktif
+2025-12-27 23:21:31,105 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:21:31,106 - INFO - ⏱️ Reaksiyon zamanı: 0.448 sn
+2025-12-27 23:21:33,156 - INFO - ▶️ Trial 10 başladı, kartlar aktif
+2025-12-27 23:21:33,739 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:21:33,739 - INFO - ⏱️ Reaksiyon zamanı: 0.583 sn
+2025-12-27 23:21:35,658 - INFO - ▶️ Trial 11 başladı, kartlar aktif
+2025-12-27 23:22:00,172 - INFO - 🚀 IGT Uygulaması başlatıldı
+2025-12-27 23:22:02,826 - INFO - 🌍 Language selected: TR | Currency: TL
+2025-12-27 23:22:05,104 - INFO - ✅ Participant info: {'subject_id': 'D20251227_232203937', 'age': 25, 'gender': 'M'}
+2025-12-27 23:22:11,158 - INFO - ============================================================
+2025-12-27 23:22:11,158 - INFO - 🔄 SYNC_MARKER: 2025-12-27T23:22:11.158072
+2025-12-27 23:22:11,159 - INFO -    Timestamp: 2025-12-27 23:22:11.158072
+2025-12-27 23:22:11,159 - INFO - ============================================================
+2025-12-27 23:22:13,660 - INFO - 
+============================================================
+2025-12-27 23:22:13,661 - INFO - 🎮 EXPERIMENT STARTING
+2025-12-27 23:22:13,661 - INFO -    Subject: D20251227_232203937
+2025-12-27 23:22:13,661 - INFO -    Age: 25
+2025-12-27 23:22:13,661 - INFO -    Gender: M
+2025-12-27 23:22:13,661 - INFO -    Start Time: 2025-12-27T23:22:11.158072
+2025-12-27 23:22:13,661 - INFO -    ✅ Synced with Shimmer countdown
+2025-12-27 23:22:13,661 - INFO - ============================================================
+
+2025-12-27 23:22:13,768 - INFO - ▶️ Trial 1 başladı, kartlar aktif
+2025-12-27 23:22:14,838 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:22:14,839 - INFO - ⏱️ Reaksiyon zamanı: 1.070 sn
+2025-12-27 23:22:16,753 - INFO - ▶️ Trial 2 başladı, kartlar aktif
+2025-12-27 23:22:17,286 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:22:17,286 - INFO - ⏱️ Reaksiyon zamanı: 0.533 sn
+2025-12-27 23:22:19,193 - INFO - ▶️ Trial 3 başladı, kartlar aktif
+2025-12-27 23:22:20,021 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:22:20,023 - INFO - ⏱️ Reaksiyon zamanı: 0.830 sn
+2025-12-27 23:22:22,133 - INFO - ▶️ Trial 4 başladı, kartlar aktif
+2025-12-27 23:22:22,353 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:22:22,353 - INFO - ⏱️ Reaksiyon zamanı: 0.220 sn
+2025-12-27 23:22:24,259 - INFO - ▶️ Trial 5 başladı, kartlar aktif
+2025-12-27 23:22:24,656 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:22:24,656 - INFO - ⏱️ Reaksiyon zamanı: 0.397 sn
+2025-12-27 23:22:26,656 - INFO - ▶️ Trial 6 başladı, kartlar aktif
+2025-12-27 23:22:27,253 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:22:27,253 - INFO - ⏱️ Reaksiyon zamanı: 0.597 sn
+2025-12-27 23:22:29,159 - INFO - ▶️ Trial 7 başladı, kartlar aktif
+2025-12-27 23:22:29,406 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:22:29,406 - INFO - ⏱️ Reaksiyon zamanı: 0.247 sn
+2025-12-27 23:22:31,516 - INFO - ▶️ Trial 8 başladı, kartlar aktif
+2025-12-27 23:22:32,319 - INFO - 🃏 Kart C tıklandı
+2025-12-27 23:22:32,320 - INFO - ⏱️ Reaksiyon zamanı: 0.804 sn
+2025-12-27 23:22:34,225 - INFO - ▶️ Trial 9 başladı, kartlar aktif
+2025-12-27 23:22:34,470 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:22:34,470 - INFO - ⏱️ Reaksiyon zamanı: 0.246 sn
+2025-12-27 23:22:36,577 - INFO - ▶️ Trial 10 başladı, kartlar aktif
+2025-12-27 23:22:37,188 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:22:37,189 - INFO - ⏱️ Reaksiyon zamanı: 0.612 sn
+2025-12-27 23:22:39,156 - INFO - ▶️ Trial 11 başladı, kartlar aktif
+2025-12-27 23:22:39,739 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:22:39,739 - INFO - ⏱️ Reaksiyon zamanı: 0.583 sn
+2025-12-27 23:22:41,657 - INFO - ▶️ Trial 12 başladı, kartlar aktif
+2025-12-27 23:22:42,370 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:22:42,370 - INFO - ⏱️ Reaksiyon zamanı: 0.713 sn
+2025-12-27 23:22:44,277 - INFO - ▶️ Trial 13 başladı, kartlar aktif
+2025-12-27 23:22:44,989 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:22:44,989 - INFO - ⏱️ Reaksiyon zamanı: 0.713 sn
+2025-12-27 23:22:47,100 - INFO - ▶️ Trial 14 başladı, kartlar aktif
+2025-12-27 23:22:51,605 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:22:51,607 - INFO - ⏱️ Reaksiyon zamanı: 4.507 sn
+2025-12-27 23:22:53,657 - INFO - ▶️ Trial 15 başladı, kartlar aktif
+2025-12-27 23:22:55,489 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:22:55,489 - INFO - ⏱️ Reaksiyon zamanı: 1.832 sn
+2025-12-27 23:22:57,600 - INFO - ▶️ Trial 16 başladı, kartlar aktif
+2025-12-27 23:22:58,322 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:22:58,322 - INFO - ⏱️ Reaksiyon zamanı: 0.722 sn
+2025-12-27 23:23:00,233 - INFO - ▶️ Trial 17 başladı, kartlar aktif
+2025-12-27 23:23:00,972 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:23:00,972 - INFO - ⏱️ Reaksiyon zamanı: 0.739 sn
+2025-12-27 23:23:03,083 - INFO - ▶️ Trial 18 başladı, kartlar aktif
+2025-12-27 23:23:05,822 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:23:05,823 - INFO - ⏱️ Reaksiyon zamanı: 2.740 sn
+2025-12-27 23:23:07,731 - INFO - ▶️ Trial 19 başladı, kartlar aktif
+2025-12-27 23:23:08,192 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:23:08,193 - INFO - ⏱️ Reaksiyon zamanı: 0.462 sn
+2025-12-27 23:23:10,156 - INFO - ▶️ Trial 20 başladı, kartlar aktif
+2025-12-27 23:23:10,372 - INFO - 🃏 Kart B tıklandı
+2025-12-27 23:23:10,372 - INFO - ⏱️ Reaksiyon zamanı: 0.216 sn
+2025-12-27 23:23:12,283 - INFO - ▶️ Trial 21 başladı, kartlar aktif
+2025-12-28 00:30:43,806 - INFO - 🚀 IGT Uygulaması başlatıldı
+2025-12-28 00:30:47,941 - INFO - 🌍 Language selected: TR | Currency: TL
+2025-12-28 00:30:58,224 - INFO - ✅ Participant info: {'subject_id': 'D20251228_003050153', 'age': 17, 'gender': 'F'}
+2025-12-28 00:32:08,231 - INFO - ============================================================
+2025-12-28 00:32:08,232 - INFO - 🔄 SYNC_MARKER: 2025-12-28T00:32:08.230736
+2025-12-28 00:32:08,232 - INFO -    Timestamp: 2025-12-28 00:32:08.230736
+2025-12-28 00:32:08,232 - INFO - ============================================================
+2025-12-28 00:32:10,682 - INFO - 
+============================================================
+2025-12-28 00:32:10,682 - INFO - 🎮 EXPERIMENT STARTING
+2025-12-28 00:32:10,683 - INFO -    Subject: D20251228_003050153
+2025-12-28 00:32:10,683 - INFO -    Age: 17
+2025-12-28 00:32:10,683 - INFO -    Gender: F
+2025-12-28 00:32:10,683 - INFO -    Start Time: 2025-12-28T00:32:08.230736
+2025-12-28 00:32:10,683 - INFO -    ✅ Synced with Shimmer countdown
+2025-12-28 00:32:10,683 - INFO - ============================================================
+
+2025-12-28 00:32:10,792 - INFO - ▶️ Trial 1 başladı, kartlar aktif
+2025-12-28 00:32:14,078 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:32:14,079 - INFO - ⏱️ Reaksiyon zamanı: 3.287 sn
+2025-12-28 00:32:16,155 - INFO - ▶️ Trial 2 başladı, kartlar aktif
+2025-12-28 00:32:19,792 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:32:19,793 - INFO - ⏱️ Reaksiyon zamanı: 3.638 sn
+2025-12-28 00:32:21,704 - INFO - ▶️ Trial 3 başladı, kartlar aktif
+2025-12-28 00:32:24,826 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:32:24,826 - INFO - ⏱️ Reaksiyon zamanı: 3.122 sn
+2025-12-28 00:32:26,736 - INFO - ▶️ Trial 4 başladı, kartlar aktif
+2025-12-28 00:32:27,948 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:32:27,948 - INFO - ⏱️ Reaksiyon zamanı: 1.212 sn
+2025-12-28 00:32:30,057 - INFO - ▶️ Trial 5 başladı, kartlar aktif
+2025-12-28 00:32:30,618 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:32:30,618 - INFO - ⏱️ Reaksiyon zamanı: 0.562 sn
+2025-12-28 00:32:32,655 - INFO - ▶️ Trial 6 başladı, kartlar aktif
+2025-12-28 00:32:34,146 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:32:34,146 - INFO - ⏱️ Reaksiyon zamanı: 1.491 sn
+2025-12-28 00:32:36,155 - INFO - ▶️ Trial 7 başladı, kartlar aktif
+2025-12-28 00:32:36,695 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:32:36,695 - INFO - ⏱️ Reaksiyon zamanı: 0.540 sn
+2025-12-28 00:32:38,655 - INFO - ▶️ Trial 8 başladı, kartlar aktif
+2025-12-28 00:32:39,178 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:32:39,178 - INFO - ⏱️ Reaksiyon zamanı: 0.523 sn
+2025-12-28 00:32:41,154 - INFO - ▶️ Trial 9 başladı, kartlar aktif
+2025-12-28 00:32:41,694 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:32:41,695 - INFO - ⏱️ Reaksiyon zamanı: 0.541 sn
+2025-12-28 00:32:43,656 - INFO - ▶️ Trial 10 başladı, kartlar aktif
+2025-12-28 00:32:44,612 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:32:44,612 - INFO - ⏱️ Reaksiyon zamanı: 0.957 sn
+2025-12-28 00:32:46,655 - INFO - ▶️ Trial 11 başladı, kartlar aktif
+2025-12-28 00:32:47,076 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:32:47,076 - INFO - ⏱️ Reaksiyon zamanı: 0.421 sn
+2025-12-28 00:32:49,155 - INFO - ▶️ Trial 12 başladı, kartlar aktif
+2025-12-28 00:32:49,830 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:32:49,831 - INFO - ⏱️ Reaksiyon zamanı: 0.676 sn
+2025-12-28 00:32:51,736 - INFO - ▶️ Trial 13 başladı, kartlar aktif
+2025-12-28 00:32:52,233 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:32:52,233 - INFO - ⏱️ Reaksiyon zamanı: 0.497 sn
+2025-12-28 00:32:54,154 - INFO - ▶️ Trial 14 başladı, kartlar aktif
+2025-12-28 00:32:54,892 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:32:54,893 - INFO - ⏱️ Reaksiyon zamanı: 0.739 sn
+2025-12-28 00:32:56,800 - INFO - ▶️ Trial 15 başladı, kartlar aktif
+2025-12-28 00:33:00,095 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:33:00,095 - INFO - ⏱️ Reaksiyon zamanı: 3.295 sn
+2025-12-28 00:33:02,155 - INFO - ▶️ Trial 16 başladı, kartlar aktif
+2025-12-28 00:33:03,014 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:33:03,014 - INFO - ⏱️ Reaksiyon zamanı: 0.859 sn
+2025-12-28 00:33:05,124 - INFO - ▶️ Trial 17 başladı, kartlar aktif
+2025-12-28 00:33:05,624 - INFO - 🃏 Kart A tıklandı
+2025-12-28 00:33:05,624 - INFO - ⏱️ Reaksiyon zamanı: 0.500 sn
+2025-12-28 00:33:07,656 - INFO - ▶️ Trial 18 başladı, kartlar aktif
+2025-12-28 00:33:08,231 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:33:08,231 - INFO - ⏱️ Reaksiyon zamanı: 0.576 sn
+2025-12-28 00:33:10,155 - INFO - ▶️ Trial 19 başladı, kartlar aktif
+2025-12-28 00:33:15,928 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:33:15,928 - INFO - ⏱️ Reaksiyon zamanı: 5.774 sn
+2025-12-28 00:33:18,037 - INFO - ▶️ Trial 20 başladı, kartlar aktif
+2025-12-28 00:33:19,508 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:33:19,508 - INFO - ⏱️ Reaksiyon zamanı: 1.472 sn
+2025-12-28 00:33:21,617 - INFO - ▶️ Trial 21 başladı, kartlar aktif
+2025-12-28 00:33:22,129 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:33:22,129 - INFO - ⏱️ Reaksiyon zamanı: 0.512 sn
+2025-12-28 00:33:24,155 - INFO - ▶️ Trial 22 başladı, kartlar aktif
+2025-12-28 00:33:25,539 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:33:25,539 - INFO - ⏱️ Reaksiyon zamanı: 1.384 sn
+2025-12-28 00:33:27,645 - INFO - ▶️ Trial 23 başladı, kartlar aktif
+2025-12-28 00:33:28,228 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:33:28,228 - INFO - ⏱️ Reaksiyon zamanı: 0.583 sn
+2025-12-28 00:33:30,155 - INFO - ▶️ Trial 24 başladı, kartlar aktif
+2025-12-28 00:33:31,848 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:33:31,850 - INFO - ⏱️ Reaksiyon zamanı: 1.695 sn
+2025-12-28 00:33:33,760 - INFO - ▶️ Trial 25 başladı, kartlar aktif
+2025-12-28 00:33:34,602 - INFO - 🃏 Kart A tıklandı
+2025-12-28 00:33:34,602 - INFO - ⏱️ Reaksiyon zamanı: 0.843 sn
+2025-12-28 00:33:36,654 - INFO - ▶️ Trial 26 başladı, kartlar aktif
+2025-12-28 00:33:38,130 - INFO - 🃏 Kart A tıklandı
+2025-12-28 00:33:38,131 - INFO - ⏱️ Reaksiyon zamanı: 1.477 sn
+2025-12-28 00:33:40,154 - INFO - ▶️ Trial 27 başladı, kartlar aktif
+2025-12-28 00:33:41,388 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:33:41,388 - INFO - ⏱️ Reaksiyon zamanı: 1.234 sn
+2025-12-28 00:33:43,295 - INFO - ▶️ Trial 28 başladı, kartlar aktif
+2025-12-28 00:33:46,608 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:33:46,609 - INFO - ⏱️ Reaksiyon zamanı: 3.314 sn
+2025-12-28 00:33:48,654 - INFO - ▶️ Trial 29 başladı, kartlar aktif
+2025-12-28 00:33:49,491 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:33:49,491 - INFO - ⏱️ Reaksiyon zamanı: 0.837 sn
+2025-12-28 00:33:51,596 - INFO - ▶️ Trial 30 başladı, kartlar aktif
+2025-12-28 00:33:54,762 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:33:54,762 - INFO - ⏱️ Reaksiyon zamanı: 3.166 sn
+2025-12-28 00:33:56,676 - INFO - ▶️ Trial 31 başladı, kartlar aktif
+2025-12-28 00:33:58,119 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:33:58,120 - INFO - ⏱️ Reaksiyon zamanı: 1.444 sn
+2025-12-28 00:34:00,155 - INFO - ▶️ Trial 32 başladı, kartlar aktif
+2025-12-28 00:34:02,753 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:34:02,753 - INFO - ⏱️ Reaksiyon zamanı: 2.598 sn
+2025-12-28 00:34:04,659 - INFO - ▶️ Trial 33 başladı, kartlar aktif
+2025-12-28 00:34:06,680 - INFO - 🃏 Kart A tıklandı
+2025-12-28 00:34:06,681 - INFO - ⏱️ Reaksiyon zamanı: 2.023 sn
+2025-12-28 00:34:08,655 - INFO - ▶️ Trial 34 başladı, kartlar aktif
+2025-12-28 00:34:09,814 - INFO - 🃏 Kart A tıklandı
+2025-12-28 00:34:09,814 - INFO - ⏱️ Reaksiyon zamanı: 1.159 sn
+2025-12-28 00:34:11,725 - INFO - ▶️ Trial 35 başladı, kartlar aktif
+2025-12-28 00:34:12,686 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:34:12,686 - INFO - ⏱️ Reaksiyon zamanı: 0.961 sn
+2025-12-28 00:34:14,654 - INFO - ▶️ Trial 36 başladı, kartlar aktif
+2025-12-28 00:34:15,296 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:34:15,296 - INFO - ⏱️ Reaksiyon zamanı: 0.642 sn
+2025-12-28 00:34:17,214 - INFO - ▶️ Trial 37 başladı, kartlar aktif
+2025-12-28 00:34:17,681 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:34:17,681 - INFO - ⏱️ Reaksiyon zamanı: 0.467 sn
+2025-12-28 00:34:19,654 - INFO - ▶️ Trial 38 başladı, kartlar aktif
+2025-12-28 00:34:20,780 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:34:20,780 - INFO - ⏱️ Reaksiyon zamanı: 1.127 sn
+2025-12-28 00:34:22,693 - INFO - ▶️ Trial 39 başladı, kartlar aktif
+2025-12-28 00:34:23,125 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:34:23,125 - INFO - ⏱️ Reaksiyon zamanı: 0.432 sn
+2025-12-28 00:34:25,155 - INFO - ▶️ Trial 40 başladı, kartlar aktif
+2025-12-28 00:34:26,938 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:34:26,938 - INFO - ⏱️ Reaksiyon zamanı: 1.783 sn
+2025-12-28 00:34:29,043 - INFO - ▶️ Trial 41 başladı, kartlar aktif
+2025-12-28 00:34:29,485 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:34:29,485 - INFO - ⏱️ Reaksiyon zamanı: 0.442 sn
+2025-12-28 00:34:31,590 - INFO - ▶️ Trial 42 başladı, kartlar aktif
+2025-12-28 00:34:32,790 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:34:32,790 - INFO - ⏱️ Reaksiyon zamanı: 1.201 sn
+2025-12-28 00:34:34,695 - INFO - ▶️ Trial 43 başladı, kartlar aktif
+2025-12-28 00:34:36,147 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:34:36,147 - INFO - ⏱️ Reaksiyon zamanı: 1.452 sn
+2025-12-28 00:34:38,155 - INFO - ▶️ Trial 44 başladı, kartlar aktif
+2025-12-28 00:34:41,795 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:34:41,795 - INFO - ⏱️ Reaksiyon zamanı: 3.640 sn
+2025-12-28 00:34:43,707 - INFO - ▶️ Trial 45 başladı, kartlar aktif
+2025-12-28 00:34:44,282 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:34:44,282 - INFO - ⏱️ Reaksiyon zamanı: 0.575 sn
+2025-12-28 00:34:46,190 - INFO - ▶️ Trial 46 başladı, kartlar aktif
+2025-12-28 00:34:47,914 - INFO - 🃏 Kart A tıklandı
+2025-12-28 00:34:47,914 - INFO - ⏱️ Reaksiyon zamanı: 1.724 sn
+2025-12-28 00:34:50,035 - INFO - ▶️ Trial 47 başladı, kartlar aktif
+2025-12-28 00:34:50,177 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:34:50,178 - INFO - ⏱️ Reaksiyon zamanı: 0.143 sn
+2025-12-28 00:34:52,155 - INFO - ▶️ Trial 48 başladı, kartlar aktif
+2025-12-28 00:34:52,597 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:34:52,598 - INFO - ⏱️ Reaksiyon zamanı: 0.443 sn
+2025-12-28 00:34:54,655 - INFO - ▶️ Trial 49 başladı, kartlar aktif
+2025-12-28 00:34:55,029 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:34:55,030 - INFO - ⏱️ Reaksiyon zamanı: 0.375 sn
+2025-12-28 00:34:57,143 - INFO - ▶️ Trial 50 başladı, kartlar aktif
+2025-12-28 00:34:58,029 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:34:58,029 - INFO - ⏱️ Reaksiyon zamanı: 0.886 sn
+2025-12-28 00:35:00,142 - INFO - ▶️ Trial 51 başladı, kartlar aktif
+2025-12-28 00:35:00,675 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:35:00,676 - INFO - ⏱️ Reaksiyon zamanı: 0.534 sn
+2025-12-28 00:35:02,654 - INFO - ▶️ Trial 52 başladı, kartlar aktif
+2025-12-28 00:35:03,331 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:35:03,331 - INFO - ⏱️ Reaksiyon zamanı: 0.677 sn
+2025-12-28 00:35:05,246 - INFO - ▶️ Trial 53 başladı, kartlar aktif
+2025-12-28 00:35:05,698 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:35:05,698 - INFO - ⏱️ Reaksiyon zamanı: 0.452 sn
+2025-12-28 00:35:07,655 - INFO - ▶️ Trial 54 başladı, kartlar aktif
+2025-12-28 00:35:08,231 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:35:08,232 - INFO - ⏱️ Reaksiyon zamanı: 0.577 sn
+2025-12-28 00:35:10,155 - INFO - ▶️ Trial 55 başladı, kartlar aktif
+2025-12-28 00:35:10,629 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:35:10,629 - INFO - ⏱️ Reaksiyon zamanı: 0.474 sn
+2025-12-28 00:35:12,655 - INFO - ▶️ Trial 56 başladı, kartlar aktif
+2025-12-28 00:35:13,128 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:35:13,128 - INFO - ⏱️ Reaksiyon zamanı: 0.473 sn
+2025-12-28 00:35:15,155 - INFO - ▶️ Trial 57 başladı, kartlar aktif
+2025-12-28 00:35:15,811 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:35:15,812 - INFO - ⏱️ Reaksiyon zamanı: 0.657 sn
+2025-12-28 00:35:17,724 - INFO - ▶️ Trial 58 başladı, kartlar aktif
+2025-12-28 00:35:18,457 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:35:18,457 - INFO - ⏱️ Reaksiyon zamanı: 0.733 sn
+2025-12-28 00:35:20,563 - INFO - ▶️ Trial 59 başladı, kartlar aktif
+2025-12-28 00:35:21,274 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:35:21,274 - INFO - ⏱️ Reaksiyon zamanı: 0.712 sn
+2025-12-28 00:35:23,180 - INFO - ▶️ Trial 60 başladı, kartlar aktif
+2025-12-28 00:35:23,711 - INFO - 🃏 Kart A tıklandı
+2025-12-28 00:35:23,712 - INFO - ⏱️ Reaksiyon zamanı: 0.532 sn
+2025-12-28 00:35:25,655 - INFO - ▶️ Trial 61 başladı, kartlar aktif
+2025-12-28 00:35:26,160 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:35:26,161 - INFO - ⏱️ Reaksiyon zamanı: 0.506 sn
+2025-12-28 00:35:28,155 - INFO - ▶️ Trial 62 başladı, kartlar aktif
+2025-12-28 00:35:30,330 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:35:30,330 - INFO - ⏱️ Reaksiyon zamanı: 2.176 sn
+2025-12-28 00:35:32,246 - INFO - ▶️ Trial 63 başladı, kartlar aktif
+2025-12-28 00:35:32,764 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:35:32,764 - INFO - ⏱️ Reaksiyon zamanı: 0.519 sn
+2025-12-28 00:35:34,677 - INFO - ▶️ Trial 64 başladı, kartlar aktif
+2025-12-28 00:35:34,930 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:35:34,930 - INFO - ⏱️ Reaksiyon zamanı: 0.253 sn
+2025-12-28 00:35:37,046 - INFO - ▶️ Trial 65 başladı, kartlar aktif
+2025-12-28 00:35:37,530 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:35:37,531 - INFO - ⏱️ Reaksiyon zamanı: 0.485 sn
+2025-12-28 00:35:39,644 - INFO - ▶️ Trial 66 başladı, kartlar aktif
+2025-12-28 00:35:40,098 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:35:40,100 - INFO - ⏱️ Reaksiyon zamanı: 0.456 sn
+2025-12-28 00:35:42,155 - INFO - ▶️ Trial 67 başladı, kartlar aktif
+2025-12-28 00:35:42,677 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:35:42,677 - INFO - ⏱️ Reaksiyon zamanı: 0.522 sn
+2025-12-28 00:35:44,655 - INFO - ▶️ Trial 68 başladı, kartlar aktif
+2025-12-28 00:35:45,329 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:35:45,329 - INFO - ⏱️ Reaksiyon zamanı: 0.674 sn
+2025-12-28 00:35:47,246 - INFO - ▶️ Trial 69 başladı, kartlar aktif
+2025-12-28 00:35:47,662 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:35:47,662 - INFO - ⏱️ Reaksiyon zamanı: 0.416 sn
+2025-12-28 00:35:49,655 - INFO - ▶️ Trial 70 başladı, kartlar aktif
+2025-12-28 00:35:50,844 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:35:50,845 - INFO - ⏱️ Reaksiyon zamanı: 1.190 sn
+2025-12-28 00:35:52,763 - INFO - ▶️ Trial 71 başladı, kartlar aktif
+2025-12-28 00:35:53,197 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:35:53,198 - INFO - ⏱️ Reaksiyon zamanı: 0.435 sn
+2025-12-28 00:35:55,154 - INFO - ▶️ Trial 72 başladı, kartlar aktif
+2025-12-28 00:35:57,114 - INFO - 🃏 Kart A tıklandı
+2025-12-28 00:35:57,114 - INFO - ⏱️ Reaksiyon zamanı: 1.960 sn
+2025-12-28 00:35:59,155 - INFO - ▶️ Trial 73 başladı, kartlar aktif
+2025-12-28 00:35:59,443 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:35:59,443 - INFO - ⏱️ Reaksiyon zamanı: 0.288 sn
+2025-12-28 00:36:01,550 - INFO - ▶️ Trial 74 başladı, kartlar aktif
+2025-12-28 00:36:01,964 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:36:01,964 - INFO - ⏱️ Reaksiyon zamanı: 0.414 sn
+2025-12-28 00:36:04,078 - INFO - ▶️ Trial 75 başladı, kartlar aktif
+2025-12-28 00:36:04,575 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:36:04,575 - INFO - ⏱️ Reaksiyon zamanı: 0.497 sn
+2025-12-28 00:36:06,655 - INFO - ▶️ Trial 76 başladı, kartlar aktif
+2025-12-28 00:36:06,911 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:36:06,911 - INFO - ⏱️ Reaksiyon zamanı: 0.256 sn
+2025-12-28 00:36:09,023 - INFO - ▶️ Trial 77 başladı, kartlar aktif
+2025-12-28 00:36:09,660 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:36:09,661 - INFO - ⏱️ Reaksiyon zamanı: 0.638 sn
+2025-12-28 00:36:11,655 - INFO - ▶️ Trial 78 başladı, kartlar aktif
+2025-12-28 00:36:12,346 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:36:12,346 - INFO - ⏱️ Reaksiyon zamanı: 0.691 sn
+2025-12-28 00:36:14,261 - INFO - ▶️ Trial 79 başladı, kartlar aktif
+2025-12-28 00:36:14,992 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:36:14,993 - INFO - ⏱️ Reaksiyon zamanı: 0.732 sn
+2025-12-28 00:36:17,104 - INFO - ▶️ Trial 80 başladı, kartlar aktif
+2025-12-28 00:36:18,107 - INFO - 🃏 Kart A tıklandı
+2025-12-28 00:36:18,107 - INFO - ⏱️ Reaksiyon zamanı: 1.003 sn
+2025-12-28 00:36:20,155 - INFO - ▶️ Trial 81 başladı, kartlar aktif
+2025-12-28 00:36:20,302 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:36:20,302 - INFO - ⏱️ Reaksiyon zamanı: 0.147 sn
+2025-12-28 00:36:22,206 - INFO - ▶️ Trial 82 başladı, kartlar aktif
+2025-12-28 00:36:22,596 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:36:22,596 - INFO - ⏱️ Reaksiyon zamanı: 0.390 sn
+2025-12-28 00:36:24,655 - INFO - ▶️ Trial 83 başladı, kartlar aktif
+2025-12-28 00:36:24,809 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:36:24,809 - INFO - ⏱️ Reaksiyon zamanı: 0.155 sn
+2025-12-28 00:36:26,719 - INFO - ▶️ Trial 84 başladı, kartlar aktif
+2025-12-28 00:36:27,279 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:36:27,279 - INFO - ⏱️ Reaksiyon zamanı: 0.561 sn
+2025-12-28 00:36:29,192 - INFO - ▶️ Trial 85 başladı, kartlar aktif
+2025-12-28 00:36:31,562 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:36:31,562 - INFO - ⏱️ Reaksiyon zamanı: 2.371 sn
+2025-12-28 00:36:33,655 - INFO - ▶️ Trial 86 başladı, kartlar aktif
+2025-12-28 00:36:33,792 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:36:33,793 - INFO - ⏱️ Reaksiyon zamanı: 0.137 sn
+2025-12-28 00:36:35,702 - INFO - ▶️ Trial 87 başladı, kartlar aktif
+2025-12-28 00:36:37,175 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:36:37,175 - INFO - ⏱️ Reaksiyon zamanı: 1.473 sn
+2025-12-28 00:36:39,155 - INFO - ▶️ Trial 88 başladı, kartlar aktif
+2025-12-28 00:36:41,079 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:36:41,079 - INFO - ⏱️ Reaksiyon zamanı: 1.924 sn
+2025-12-28 00:36:43,155 - INFO - ▶️ Trial 89 başladı, kartlar aktif
+2025-12-28 00:36:43,478 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:36:43,478 - INFO - ⏱️ Reaksiyon zamanı: 0.323 sn
+2025-12-28 00:36:45,588 - INFO - ▶️ Trial 90 başladı, kartlar aktif
+2025-12-28 00:36:46,696 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:36:46,697 - INFO - ⏱️ Reaksiyon zamanı: 1.109 sn
+2025-12-28 00:36:48,655 - INFO - ▶️ Trial 91 başladı, kartlar aktif
+2025-12-28 00:36:49,352 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:36:49,352 - INFO - ⏱️ Reaksiyon zamanı: 0.698 sn
+2025-12-28 00:36:51,260 - INFO - ▶️ Trial 92 başladı, kartlar aktif
+2025-12-28 00:36:51,879 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:36:51,879 - INFO - ⏱️ Reaksiyon zamanı: 0.620 sn
+2025-12-28 00:36:53,793 - INFO - ▶️ Trial 93 başladı, kartlar aktif
+2025-12-28 00:36:54,363 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:36:54,363 - INFO - ⏱️ Reaksiyon zamanı: 0.570 sn
+2025-12-28 00:36:56,276 - INFO - ▶️ Trial 94 başladı, kartlar aktif
+2025-12-28 00:36:56,739 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:36:56,739 - INFO - ⏱️ Reaksiyon zamanı: 0.463 sn
+2025-12-28 00:36:58,656 - INFO - ▶️ Trial 95 başladı, kartlar aktif
+2025-12-28 00:36:59,721 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:36:59,721 - INFO - ⏱️ Reaksiyon zamanı: 1.066 sn
+2025-12-28 00:37:01,654 - INFO - ▶️ Trial 96 başladı, kartlar aktif
+2025-12-28 00:37:11,128 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:37:11,128 - INFO - ⏱️ Reaksiyon zamanı: 9.474 sn
+2025-12-28 00:37:13,154 - INFO - ▶️ Trial 97 başladı, kartlar aktif
+2025-12-28 00:37:13,712 - INFO - 🃏 Kart B tıklandı
+2025-12-28 00:37:13,712 - INFO - ⏱️ Reaksiyon zamanı: 0.558 sn
+2025-12-28 00:37:15,656 - INFO - ▶️ Trial 98 başladı, kartlar aktif
+2025-12-28 00:37:16,178 - INFO - 🃏 Kart C tıklandı
+2025-12-28 00:37:16,178 - INFO - ⏱️ Reaksiyon zamanı: 0.523 sn
+2025-12-28 00:37:18,155 - INFO - ▶️ Trial 99 başladı, kartlar aktif
+2025-12-28 00:37:18,676 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:37:18,676 - INFO - ⏱️ Reaksiyon zamanı: 0.522 sn
+2025-12-28 00:37:20,654 - INFO - ▶️ Trial 100 başladı, kartlar aktif
+2025-12-28 00:37:21,160 - INFO - 🃏 Kart D tıklandı
+2025-12-28 00:37:21,160 - INFO - ⏱️ Reaksiyon zamanı: 0.506 sn
+2025-12-28 00:37:23,155 - INFO - ✅ Deney tamamlandı!
+2025-12-28 00:37:23,646 - INFO - ✅ Analiz tamamlandı: /Users/hasanfehmiozel/calisma_klasoru/IGT_tr/igt_tr/src/Sonuclar/IGT_D20251228_003050153_2025-12-28_00-37-23_Analysis.png
+2025-12-28 00:37:23,649 - INFO - ✅ Oturum veritabanına kaydedildi: IGT_D20251228_003050153_2025-12-28_00-37-23

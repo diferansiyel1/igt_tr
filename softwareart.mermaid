@@ -1,0 +1,65 @@
+graph TD
+    %% Stil Tanımları
+    classDef hardware fill:#f9f9f9,stroke:#333,stroke-width:2px,color:#000
+    classDef gui fill:#e1f5fe,stroke:#0277bd,stroke-width:2px,color:#000
+    classDef core fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000
+    classDef data fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
+    classDef external fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+
+    subgraph Hardware_Layer [Hardware Layer / Donanım]
+        User((User / Participant))
+        Shimmer[Shimmer3 GSR+ Device]:::hardware
+    end
+
+    subgraph Application_Layer [Application Layer / PyIGT-Shimmer]
+        
+        subgraph Frontend [Frontend / PyQt6]
+            MainMenu[Main Menu Screen]:::gui
+            ExpScreen[Experiment Screen]:::gui
+            SyncScreen[Sync Countdown UI]:::gui
+            Dashboard[Analysis Dashboard]:::gui
+        end
+
+        subgraph Core_Logic [Core Logic / Python]
+            Controller[Main Controller]:::core
+            DeckEngine[Deck Logic / Bechara Algo]:::core
+            SyncManager[Sync Manager]:::core
+            ReportGen[Report Generator]:::core
+        end
+
+        subgraph Data_Persistence [Data Persistence]
+            SQLite[(SQLite Database)]:::data
+            CSVFiles[Raw CSV Logs]:::data
+            Config[Config.py]:::data
+        end
+    end
+
+    subgraph Post_Processing [Post-Processing]
+        MergeScript[merge_shimmer_igt.py]:::external
+        FinalData[Fused Data / Behavior + Physio]:::external
+    end
+
+    %% İlişkiler
+    User --> MainMenu
+    User --> Shimmer
+    Shimmer --> MergeScript
+    
+    MainMenu --> ExpScreen
+    MainMenu --> Dashboard
+    
+    ExpScreen --> SyncScreen
+    SyncScreen --> SyncManager
+    SyncScreen --> Shimmer
+
+    ExpScreen --> DeckEngine
+    DeckEngine --> ExpScreen
+    
+    ExpScreen --> Controller
+    Controller --> SQLite
+    Controller --> CSVFiles
+    
+    Dashboard --> SQLite
+    ReportGen --> Dashboard
+
+    CSVFiles --> MergeScript
+    MergeScript --> FinalData

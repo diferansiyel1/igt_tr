@@ -39,7 +39,7 @@ import seaborn as sns
 class Config:
     """Uygulama yapılandırma parametreleri"""
     
-    # Experiment Parameters
+    # Experiment Parameters (will be overridden by language selection)
     START_BALANCE = 100000
     REWARD_BAD_DECK = 5000
     REWARD_GOOD_DECK = 2500
@@ -61,6 +61,329 @@ class Config:
     TEXT_COLOR = '#ffffff'
     SUCCESS_COLOR = '#2ecc71'
     ERROR_COLOR = '#e74c3c'
+
+# =============================================================================
+# LANGUAGE CONFIGURATION
+# =============================================================================
+class LanguageConfig:
+    """Currency and balance values for each language"""
+    TR = {
+        "start_balance": 100000,
+        "reward_bad": 5000,
+        "reward_good": 2500,
+        "penalty_a": [0, -7500, 0, -10000, 0, -12500, 0, -15000, 0, -17500],
+        "penalty_b": [0, 0, 0, 0, 0, 0, 0, 0, 0, -62500],
+        "penalty_c": [0, -1250, 0, -1250, 0, -2500, 0, -2500, 0, -5000],
+        "penalty_d": [0, 0, 0, 0, 0, 0, 0, 0, 0, -12500],
+        "currency": "TL"
+    }
+    EN = {
+        "start_balance": 2000,
+        "reward_bad": 100,
+        "reward_good": 50,
+        "penalty_a": [0, -150, 0, -200, 0, -250, 0, -300, 0, -350],
+        "penalty_b": [0, 0, 0, 0, 0, 0, 0, 0, 0, -1250],
+        "penalty_c": [0, -25, 0, -25, 0, -50, 0, -50, 0, -100],
+        "penalty_d": [0, 0, 0, 0, 0, 0, 0, 0, 0, -250],
+        "currency": "USD"
+    }
+
+# =============================================================================
+# LOCALIZATION STRINGS
+# =============================================================================
+class Strings:
+    """Bilingual string resources"""
+    TR = {
+        # Main Menu
+        "app_title": "IOWA GAMBLING TASK",
+        "subtitle": "Karar Verme ve Risk Değerlendirme Testi",
+        "version_info": "v3.0 | Dr. H. Fehmi ÖZEL - MCBU - Sağlık Hizmetleri MYO",
+        "start_new_test": "YENİ TEST BAŞLAT",
+        "view_data": "VERİ KAYITLARINI GÖRÜNTÜLE",
+        "about": "HAKKINDA & YARDIM",
+        "exit": "ÇIKIŞ",
+        
+        # Data Viewer
+        "data_records": "VERİ KAYITLARI",
+        "refresh": "Yenile",
+        "back_to_menu": "Ana Menü",
+        "participant_id": "Katılımcı ID",
+        "age": "Yaş",
+        "gender": "Cinsiyet",
+        "date": "Tarih",
+        "final_balance": "Final Bakiye",
+        "net_igt_score": "Net IGT Skoru",
+        "open_csv": "CSV Aç",
+        "open_graph": "Grafik Aç",
+        "open_summary": "Özet Aç",
+        "open_folder": "Klasörü Aç",
+        "records_found": "Toplam {count} kayıt bulundu. (Maksimum kapasite: {max})",
+        
+        # Welcome Screen
+        "participant_id_label": "Katılımcı ID",
+        "age_label": "Yaş",
+        "gender_label": "Cinsiyet",
+        "male": "Erkek",
+        "female": "Kadın",
+        "start_test": "TESTE BAŞLA",
+        
+        # Sync Screen
+        "sync_title": "SHIMMER SENKRONIZASYONU",
+        "sync_instructions": """📋 SENKRONIZASYON ADIMLARI:
+
+1️⃣ Shimmer cihazını katılımcıya takın
+2️⃣ ConsensysPRO'da kaydı hazırlayın
+3️⃣ Aşağıdaki butona tıklayın
+4️⃣ Countdown başladığında Shimmer'da KAYDI BAŞLATIN
+
+⏰ 3-2-1 countdown sırasında her iki sistemde kayıt senkronize edilecek""",
+        "start_sync": "SENKRONIZASYON BAŞLAT",
+        "sync_complete": "BAŞLIYOR",
+        
+        # Instruction Screen
+        "instructions_title": "GÖREV TALİMATLARI",
+        "instructions_text": """Önünüzde 4 farklı kart destesi bulunmaktadır.
+Kasanızda {balance:,} {currency} nakit sermaye vardır.
+
+🃏 Her kart seçiminiz size para kazandırır,
+   ancak bazı kartlar ceza da getirebilir!
+
+🎯 Göreviniz: 100 tur boyunca en yüksek bakiyeye ulaşmak
+
+💡 İpucu: Başlangıçta hangi destenin avantajlı olduğunu bilemezsiniz.
+   Deneyerek öğrenmeniz ve stratejinizi geliştirmeniz beklenmektedir.
+
+⏱️ Her seçiminizde tepki süreniz kaydedilecektir.
+
+⚠️ Önemli: Test boyunca doğal davranın ve içgüdülerinizi takip edin.""",
+        "start": "BAŞLA",
+        
+        # Experiment Screen
+        "trial": "Tur",
+        "balance": "BAKİYE",
+        "select_deck": "Bir kart destesi seçin",
+        "reward": "Kazanç",
+        "penalty": "Ceza",
+        "no_penalty": "Ceza Yok",
+        "net": "Net",
+        
+        # Completion Screen
+        "test_complete": "TEST TAMAMLANDI!",
+        "final_balance_label": "Son Bakiye",
+        "net_change": "Net Değişim",
+        "trials_completed": "{count} deneme tamamlandı",
+        "results_saved": """📁 Sonuçlarınız kaydedildi:
+   • CSV (Ham veri)
+   • PNG (Grafikler)
+   • TXT (Özet rapor)
+   • Veritabanı""",
+        "main_menu": "ANA MENÜ",
+        "view_results": "SONUÇLARI GÖRÜNTÜLE",
+        
+        # Analysis
+        "analysis_title": "IGT Analiz Raporu - Katılımcı: {subject_id}",
+        "learning_curve": "Öğrenme Eğrisi",
+        "balance_change": "Bakiye Değişimi",
+        "deck_distribution": "Deste Seçim Dağılımı",
+        "reaction_time": "Ortalama Karar Süresi",
+        "block_trials": "Blok (20 Deneme)",
+        "net_score_formula": "Net Skor [(C+D) - (A+B)]",
+        "trial_count": "Deneme Sayısı",
+        "total_balance": "Toplam Bakiye",
+        "deck": "Deste",
+        "selection_count": "Seçim Sayısı",
+        "reaction_time_sec": "Reaksiyon Süresi (sn)",
+        
+        # Summary Report
+        "report_title": "IGT DENEY ÖZET RAPORU",
+        "basic_metrics": "TEMEL METRİKLER",
+        "net_igt_score_label": "Net IGT Skoru",
+        "advantageous_deck": "Avantajlı Deste (C+D)",
+        "disadvantageous_deck": "Dezavantajlı Deste (A+B)",
+        "selections": "seçim",
+        "start_balance_label": "Başlangıç Bakiyesi",
+        "block_scores": "BLOK BAZLI NET SKORLAR",
+        "block": "Blok",
+        "deck_details": "DESTE SEÇİM DETAYLARI",
+        "advantageous": "Avantajlı",
+        "disadvantageous": "Dezavantajlı",
+        
+        # About Dialog
+        "about_title": "Hakkında - Iowa Gambling Task",
+        "about_content": """<h2>Iowa Gambling Task (IGT)</h2>
+<p><b>Versiyon:</b> 3.0</p>
+<p><b>Geliştirici:</b> Dr. H. Fehmi ÖZEL</p>
+<p><b>Kurum:</b> Manisa Celal Bayar Üniversitesi<br>
+Sağlık Hizmetleri Meslek Yüksekokulu</p><br>
+<p><b>Açıklama:</b></p>
+<p>Iowa Gambling Task (IGT), karar verme süreçlerini ve 
+risk değerlendirme yeteneğini ölçen nöropsikolojik bir testtir (Bechara et al. (1994)). 
+Test, katılımcıların avantajlı ve dezavantajlı desteler arasında 
+seçim yapma yeteneklerini değerlendirir.</p><br>
+<p><b>Test Özellikleri:</b></p>
+<ul>
+<li>100 deneme (5 blok × 20 deneme)</li>
+<li>4 deste (A, B, C, D)</li>
+<li>Shimmer EDA/PPG entegrasyonu</li>
+<li>Otomatik veri kayıt ve analiz</li>
+<li>200 katılımcı kapasiteli veritabanı</li>
+</ul>"""
+    }
+    
+    EN = {
+        # Main Menu
+        "app_title": "IOWA GAMBLING TASK",
+        "subtitle": "Decision Making and Risk Assessment Test",
+        "version_info": "v3.0 | Dr. H. Fehmi ÖZEL - MCBU - Health Services VHS",
+        "start_new_test": "START NEW TEST",
+        "view_data": "VIEW DATA RECORDS",
+        "about": "ABOUT & HELP",
+        "exit": "EXIT",
+        
+        # Data Viewer
+        "data_records": "DATA RECORDS",
+        "refresh": "Refresh",
+        "back_to_menu": "Main Menu",
+        "participant_id": "Participant ID",
+        "age": "Age",
+        "gender": "Gender",
+        "date": "Date",
+        "final_balance": "Final Balance",
+        "net_igt_score": "Net IGT Score",
+        "open_csv": "Open CSV",
+        "open_graph": "Open Graph",
+        "open_summary": "Open Summary",
+        "open_folder": "Open Folder",
+        "records_found": "Total {count} records found. (Maximum capacity: {max})",
+        
+        # Welcome Screen
+        "participant_id_label": "Participant ID",
+        "age_label": "Age",
+        "gender_label": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "start_test": "START TEST",
+        
+        # Sync Screen
+        "sync_title": "SHIMMER SYNCHRONIZATION",
+        "sync_instructions": """📋 SYNCHRONIZATION STEPS:
+
+1️⃣ Attach Shimmer device to participant
+2️⃣ Prepare recording in ConsensysPRO
+3️⃣ Click the button below
+4️⃣ Start recording on Shimmer when countdown begins
+
+⏰ Both systems will be synchronized during the 3-2-1 countdown""",
+        "start_sync": "START SYNCHRONIZATION",
+        "sync_complete": "STARTING",
+        
+        # Instruction Screen
+        "instructions_title": "TASK INSTRUCTIONS",
+        "instructions_text": """You have 4 different card decks in front of you.
+You have ${balance:,} {currency} cash in your account.
+
+🃏 Each card selection earns you money,
+   but some cards may also bring penalties!
+
+🎯 Your goal: Achieve the highest balance over 100 turns
+
+💡 Tip: You won't know which deck is advantageous at first.
+   You are expected to learn by trial and develop your strategy.
+
+⏱️ Your reaction time will be recorded for each selection.
+
+⚠️ Important: Act naturally throughout the test and follow your instincts.""",
+        "start": "START",
+        
+        # Experiment Screen
+        "trial": "Trial",
+        "balance": "BALANCE",
+        "select_deck": "Select a card deck",
+        "reward": "Reward",
+        "penalty": "Penalty",
+        "no_penalty": "No Penalty",
+        "net": "Net",
+        
+        # Completion Screen
+        "test_complete": "TEST COMPLETED!",
+        "final_balance_label": "Final Balance",
+        "net_change": "Net Change",
+        "trials_completed": "{count} trials completed",
+        "results_saved": """📁 Your results have been saved:
+   • CSV (Raw data)
+   • PNG (Graphs)
+   • TXT (Summary report)
+   • Database""",
+        "main_menu": "MAIN MENU",
+        "view_results": "VIEW RESULTS",
+        
+        # Analysis
+        "analysis_title": "IGT Analysis Report - Participant: {subject_id}",
+        "learning_curve": "Learning Curve",
+        "balance_change": "Balance Trajectory",
+        "deck_distribution": "Deck Selection Distribution",
+        "reaction_time": "Average Decision Time",
+        "block_trials": "Block (20 Trials)",
+        "net_score_formula": "Net Score [(C+D) - (A+B)]",
+        "trial_count": "Trial Number",
+        "total_balance": "Total Balance",
+        "deck": "Deck",
+        "selection_count": "Selection Count",
+        "reaction_time_sec": "Reaction Time (sec)",
+        
+        # Summary Report
+        "report_title": "IGT EXPERIMENT SUMMARY REPORT",
+        "basic_metrics": "BASIC METRICS",
+        "net_igt_score_label": "Net IGT Score",
+        "advantageous_deck": "Advantageous Deck (C+D)",
+        "disadvantageous_deck": "Disadvantageous Deck (A+B)",
+        "selections": "selections",
+        "start_balance_label": "Starting Balance",
+        "block_scores": "BLOCK-WISE NET SCORES",
+        "block": "Block",
+        "deck_details": "DECK SELECTION DETAILS",
+        "advantageous": "Advantageous",
+        "disadvantageous": "Disadvantageous",
+        
+        # About Dialog
+        "about_title": "About - Iowa Gambling Task",
+        "about_content": """<h2>Iowa Gambling Task (IGT)</h2>
+<p><b>Version:</b> 3.0</p>
+<p><b>Developer:</b> Dr. H. Fehmi ÖZEL</p>
+<p><b>Institution:</b> Manisa Celal Bayar University<br>
+Vocational School of Health Services</p><br>
+<p><b>Description:</b></p>
+<p>The Iowa Gambling Task (IGT) is a neuropsychological test that measures 
+decision-making processes and risk assessment ability (Bechara et al. (1994)). 
+The test evaluates participants' ability to choose between advantageous 
+and disadvantageous decks.</p><br>
+<p><b>Test Features:</b></p>
+<ul>
+<li>100 trials (5 blocks × 20 trials)</li>
+<li>4 decks (A, B, C, D)</li>
+<li>Shimmer EDA/PPG integration</li>
+<li>Automatic data recording and analysis</li>
+<li>Database capacity for 200 participants</li>
+</ul>"""
+    }
+
+# Global language state
+current_lang = "TR"
+
+def get_string(key: str, **kwargs) -> str:
+    """Get localized string by key"""
+    strings = Strings.TR if current_lang == "TR" else Strings.EN
+    text = strings.get(key, key)
+    if kwargs:
+        try:
+            return text.format(**kwargs)
+        except:
+            return text
+    return text
+
+def get_lang_config() -> dict:
+    """Get current language configuration"""
+    return LanguageConfig.TR if current_lang == "TR" else LanguageConfig.EN
 
 # =============================================================================
 # PENALTY SCHEDULES
@@ -352,6 +675,108 @@ def run_analysis(csv_path: str, subject_id: str, age: int, gender: str) -> Tuple
     return png_path, txt_path
 
 # =============================================================================
+# PyQt6 GUI - LANGUAGE SELECTION DIALOG
+# =============================================================================
+class LanguageSelectionDialog(QWidget):
+    """Dil seçim ekranı / Language selection screen"""
+    language_selected = pyqtSignal(str)
+    
+    def __init__(self):
+        super().__init__()
+        self.init_ui()
+    
+    def init_ui(self):
+        layout = QVBoxLayout()
+        layout.setSpacing(30)
+        layout.setContentsMargins(100, 100, 100, 100)
+        
+        # Title
+        title = QLabel("🧠 IOWA GAMBLING TASK")
+        title.setFont(QFont('Arial', 36, QFont.Weight.Bold))
+        title.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        title.setStyleSheet(f"color: {Config.ACCENT_COLOR};")
+        layout.addWidget(title)
+        
+        # Subtitle
+        subtitle = QLabel("Select Language / Dil Seçin")
+        subtitle.setFont(QFont('Arial', 18))
+        subtitle.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        subtitle.setStyleSheet("color: #95a5a6;")
+        layout.addWidget(subtitle)
+        
+        layout.addSpacing(50)
+        
+        # Language buttons
+        btn_layout = QHBoxLayout()
+        btn_layout.setSpacing(40)
+        
+        # Turkish button
+        tr_btn = QPushButton("🇹🇷\nTÜRKÇE")
+        tr_btn.setFont(QFont('Arial', 24, QFont.Weight.Bold))
+        tr_btn.setFixedSize(220, 180)
+        tr_btn.setStyleSheet(f"""
+            QPushButton {{
+                background-color: #c0392b;
+                color: white;
+                border: 4px solid white;
+                border-radius: 20px;
+            }}
+            QPushButton:hover {{
+                background-color: #e74c3c;
+                border: 4px solid {Config.ACCENT_COLOR};
+            }}
+        """)
+        tr_btn.clicked.connect(lambda: self.select_language("TR"))
+        btn_layout.addWidget(tr_btn)
+        
+        # English button
+        en_btn = QPushButton("🇬🇧\nENGLISH")
+        en_btn.setFont(QFont('Arial', 24, QFont.Weight.Bold))
+        en_btn.setFixedSize(220, 180)
+        en_btn.setStyleSheet(f"""
+            QPushButton {{
+                background-color: #2c3e50;
+                color: white;
+                border: 4px solid white;
+                border-radius: 20px;
+            }}
+            QPushButton:hover {{
+                background-color: #34495e;
+                border: 4px solid {Config.ACCENT_COLOR};
+            }}
+        """)
+        en_btn.clicked.connect(lambda: self.select_language("EN"))
+        btn_layout.addWidget(en_btn)
+        
+        layout.addLayout(btn_layout)
+        
+        layout.addSpacing(40)
+        
+        # Info
+        info = QLabel("Currency: TL (Turkish) / USD (English)")
+        info.setFont(QFont('Arial', 12))
+        info.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        info.setStyleSheet("color: #7f8c8d;")
+        layout.addWidget(info)
+        
+        layout.addStretch()
+        self.setLayout(layout)
+    
+    def select_language(self, lang: str):
+        """Dil seçildiğinde"""
+        global current_lang
+        current_lang = lang
+        
+        # Update Config with language-specific values
+        lang_config = get_lang_config()
+        Config.START_BALANCE = lang_config["start_balance"]
+        Config.REWARD_BAD_DECK = lang_config["reward_bad"]
+        Config.REWARD_GOOD_DECK = lang_config["reward_good"]
+        
+        logging.info(f"🌍 Language selected: {lang} | Currency: {lang_config['currency']}")
+        self.language_selected.emit(lang)
+
+# =============================================================================
 # PyQt6 GUI - MAIN MENU SCREEN
 # =============================================================================
 class MainMenuScreen(QWidget):
@@ -369,19 +794,19 @@ class MainMenuScreen(QWidget):
         layout.setContentsMargins(100, 100, 100, 100)
         
         # Logo ve Başlık
-        title = QLabel("🧠 IOWA GAMBLING TASK")
+        title = QLabel(f"🧠 {get_string('app_title')}")
         title.setFont(QFont('Arial', 42, QFont.Weight.Bold))
         title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         title.setStyleSheet(f"color: {Config.ACCENT_COLOR};")
         layout.addWidget(title)
         
-        subtitle = QLabel("Karar Verme ve Risk Değerlendirme Testi")
+        subtitle = QLabel(get_string('subtitle'))
         subtitle.setFont(QFont('Arial', 16))
         subtitle.setAlignment(Qt.AlignmentFlag.AlignCenter)
         subtitle.setStyleSheet("color: #95a5a6;")
         layout.addWidget(subtitle)
         
-        version_label = QLabel("v3.0 | Dr. H. Fehmi ÖZEL - MCBU - Sağlık Hizmetleri MYO")
+        version_label = QLabel(get_string('version_info'))
         version_label.setFont(QFont('Arial', 11))
         version_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         version_label.setStyleSheet("color: #7f8c8d;")
@@ -410,21 +835,21 @@ class MainMenuScreen(QWidget):
         """
         
         # Yeni Test Başlat
-        new_test_btn = QPushButton("🧪 YENİ TEST BAŞLAT")
+        new_test_btn = QPushButton(f"🧪 {get_string('start_new_test')}")
         new_test_btn.setFont(QFont('Arial', 18, QFont.Weight.Bold))
         new_test_btn.setStyleSheet(button_style)
         new_test_btn.clicked.connect(self.start_new_test_signal.emit)
         layout.addWidget(new_test_btn)
         
         # Veri Kayıtlarını Görüntüle
-        view_data_btn = QPushButton("📊 VERİ KAYITLARINI GÖRÜNTÜLE")
+        view_data_btn = QPushButton(f"📊 {get_string('view_data')}")
         view_data_btn.setFont(QFont('Arial', 18, QFont.Weight.Bold))
         view_data_btn.setStyleSheet(button_style.replace(Config.PRIMARY_COLOR, '#27ae60'))
         view_data_btn.clicked.connect(self.view_data_signal.emit)
         layout.addWidget(view_data_btn)
         
         # Hakkında
-        about_btn = QPushButton("ℹ️ HAKKINDA & YARDIM")
+        about_btn = QPushButton(f"ℹ️ {get_string('about')}")
         about_btn.setFont(QFont('Arial', 16))
         about_btn.setStyleSheet(button_style.replace(Config.PRIMARY_COLOR, '#34495e'))
         about_btn.clicked.connect(self.show_about)
@@ -433,7 +858,7 @@ class MainMenuScreen(QWidget):
         layout.addSpacing(30)
         
         # Çıkış
-        exit_btn = QPushButton("🚪 ÇIKIŞ")
+        exit_btn = QPushButton(f"🚪 {get_string('exit')}")
         exit_btn.setFont(QFont('Arial', 14))
         exit_btn.setStyleSheet("""
             QPushButton {
@@ -458,28 +883,9 @@ class MainMenuScreen(QWidget):
     def show_about(self):
         """Hakkında diyalogu"""
         msg = QMessageBox(self)
-        msg.setWindowTitle("Hakkında - Iowa Gambling Task")
+        msg.setWindowTitle(get_string('about_title'))
         msg.setIcon(QMessageBox.Icon.Information)
-        msg.setText(
-            "<h2>Iowa Gambling Task (IGT)</h2>"
-            "<p><b>Versiyon:</b> 3.0</p>"
-            "<p><b>Geliştirici:</b> Dr. H. Fehmi ÖZEL</p>"
-            "<p><b>Kurum:</b> Manisa Celal Bayar Üniversitesi<br>"
-            "Sağlık Hizmetleri Meslek Yüksekokulu</p><br>"
-            "<p><b>Açıklama:</b></p>"
-            "<p>Iowa Gambling Task (IGT), karar verme süreçlerini ve "
-            "risk değerlendirme yeteneğini ölçen nöropsikolojik bir testtir (Bechara et al. (1994)). "
-            "Test, katılımcıların avantajlı ve dezavantajlı desteler arasında "
-            "seçim yapma yeteneklerini değerlendirir.</p><br>"
-            "<p><b>Test Özellikleri:</b></p>"
-            "<ul>"
-            "<li>100 deneme (5 blok × 20 deneme)</li>"
-            "<li>4 deste (A, B, C, D)</li>"
-            "<li>Shimmer EDA/PPG entegrasyonu</li>"
-            "<li>Otomatik veri kayıt ve analiz</li>"
-            "<li>200 katılımcı kapasiteli veritabanı</li>"
-            "</ul>"
-        )
+        msg.setText(get_string('about_content'))
         msg.setStyleSheet("""
             QMessageBox {
                 background-color: #2d3436;
@@ -509,7 +915,7 @@ class DataViewerScreen(QWidget):
         # Header
         header_layout = QHBoxLayout()
         
-        title = QLabel("📊 VERİ KAYITLARI")
+        title = QLabel(f"📊 {get_string('data_records')}")
         title.setFont(QFont('Arial', 28, QFont.Weight.Bold))
         title.setStyleSheet(f"color: {Config.ACCENT_COLOR};")
         header_layout.addWidget(title)
@@ -517,7 +923,7 @@ class DataViewerScreen(QWidget):
         header_layout.addStretch()
         
         # Yenile butonu
-        refresh_btn = QPushButton("🔄 Yenile")
+        refresh_btn = QPushButton(f"🔄 {get_string('refresh')}")
         refresh_btn.setFont(QFont('Arial', 12))
         refresh_btn.setFixedSize(120, 40)
         refresh_btn.setStyleSheet(f"""
@@ -535,7 +941,7 @@ class DataViewerScreen(QWidget):
         header_layout.addWidget(refresh_btn)
         
         # Geri butonu
-        back_btn = QPushButton("← Ana Menü")
+        back_btn = QPushButton(f"← {get_string('back_to_menu')}")
         back_btn.setFont(QFont('Arial', 12))
         back_btn.setFixedSize(120, 40)
         back_btn.setStyleSheet("""
@@ -558,8 +964,8 @@ class DataViewerScreen(QWidget):
         self.table = QTableWidget()
         self.table.setColumnCount(7)
         self.table.setHorizontalHeaderLabels([
-            "ID", "Katılımcı ID", "Yaş", "Cinsiyet", "Tarih", 
-            "Final Bakiye", "Net IGT Skoru"
+            "ID", get_string('participant_id'), get_string('age'), get_string('gender'), get_string('date'), 
+            get_string('final_balance'), get_string('net_igt_score')
         ])
         
         # Tablo stil ve davranış
@@ -712,7 +1118,7 @@ class DataViewerScreen(QWidget):
                 self.table.setItem(i, 2, QTableWidgetItem(str(age)))
                 self.table.setItem(i, 3, QTableWidgetItem(gender))
                 self.table.setItem(i, 4, QTableWidgetItem(formatted_date))
-                self.table.setItem(i, 5, QTableWidgetItem(f"{final_balance:,} TL"))
+                self.table.setItem(i, 5, QTableWidgetItem(f"{final_balance:,} {get_lang_config()['currency']}"))
                 
                 net_score_item = QTableWidgetItem(f"{net_score:+d}")
                 font = QFont()
@@ -846,14 +1252,14 @@ class WelcomeScreen(QWidget):
         layout.setContentsMargins(50, 50, 50, 50)
         
         # Title
-        title = QLabel("🧠 IOWA GAMBLING TASK")
+        title = QLabel(f"🧠 {get_string('app_title')}")
         title.setFont(QFont('Arial', 32, QFont.Weight.Bold))
         title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         title.setStyleSheet(f"color: {Config.ACCENT_COLOR};")
         layout.addWidget(title)
         
         # Subtitle
-        subtitle = QLabel("Karar Verme ve Risk Değerlendirme Testi")
+        subtitle = QLabel(get_string('subtitle'))
         subtitle.setFont(QFont('Arial', 14))
         subtitle.setAlignment(Qt.AlignmentFlag.AlignCenter)
         subtitle.setStyleSheet("color: #95a5a6;")
@@ -862,7 +1268,7 @@ class WelcomeScreen(QWidget):
         layout.addSpacing(30)
         
         # Auto-generated ID
-        id_label = QLabel(f"🆔 Katılımcı ID: {self.subject_id}")
+        id_label = QLabel(f"🆔 {get_string('participant_id_label')}: {self.subject_id}")
         id_label.setFont(QFont('Arial', 16))
         id_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         id_label.setStyleSheet(f"color: {Config.PRIMARY_COLOR}; padding: 10px;")
@@ -877,9 +1283,9 @@ class WelcomeScreen(QWidget):
         
         # Age
         age_layout = QHBoxLayout()
-        age_label = QLabel("🎂 Yaş:")
+        age_label = QLabel(f"🎂 {get_string('age_label')}:")
         age_label.setFont(QFont('Arial', 14))
-        age_label.setFixedWidth(100)
+        age_label.setFixedWidth(120)
         self.age_input = QSpinBox()
         self.age_input.setMinimum(1)
         self.age_input.setMaximum(150)
@@ -892,11 +1298,11 @@ class WelcomeScreen(QWidget):
         
         # Gender
         gender_layout = QHBoxLayout()
-        gender_label = QLabel("⚧ Cinsiyet:")
+        gender_label = QLabel(f"⚧ {get_string('gender_label')}:")
         gender_label.setFont(QFont('Arial', 14))
-        gender_label.setFixedWidth(100)
+        gender_label.setFixedWidth(120)
         self.gender_input = QComboBox()
-        self.gender_input.addItems(["Erkek", "Kadın"])
+        self.gender_input.addItems([get_string('male'), get_string('female')])
         self.gender_input.setFont(QFont('Arial', 14))
         self.gender_input.setFixedHeight(40)
         gender_layout.addWidget(gender_label)
@@ -909,7 +1315,7 @@ class WelcomeScreen(QWidget):
         layout.addSpacing(30)
         
         # Start button
-        self.start_btn = QPushButton("▶ TESTE BAŞLA")
+        self.start_btn = QPushButton(f"▶ {get_string('start_test')}")
         self.start_btn.setFont(QFont('Arial', 18, QFont.Weight.Bold))
         self.start_btn.setFixedHeight(60)
         self.start_btn.setStyleSheet(f"""
@@ -933,13 +1339,15 @@ class WelcomeScreen(QWidget):
     
     def start_experiment(self):
         """Deney başlatma"""
-        gender_map = {"Erkek": "E", "Kadın": "K"}
+        # Map gender based on current language
+        male_str = get_string('male')
+        gender_map = {male_str: "M", get_string('female'): "F"}
         participant_info = {
             "subject_id": self.subject_id,
             "age": self.age_input.value(),
-            "gender": gender_map[self.gender_input.currentText()]
+            "gender": gender_map.get(self.gender_input.currentText(), "M")
         }
-        logging.info(f"✅ Katılımcı bilgileri: {participant_info}")
+        logging.info(f"✅ Participant info: {participant_info}")
         self.start_signal.emit(participant_info)
 
 # =============================================================================
@@ -960,21 +1368,14 @@ class SyncCountdownScreen(QWidget):
         layout.setContentsMargins(50, 50, 50, 50)
         
         # Title
-        title = QLabel("⏱️ SHIMMER SENKRONIZASYONU")
+        title = QLabel(f"⏱️ {get_string('sync_title')}")
         title.setFont(QFont('Arial', 28, QFont.Weight.Bold))
         title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         title.setStyleSheet(f"color: {Config.ACCENT_COLOR};")
         layout.addWidget(title)
         
         # Instructions
-        instructions = QLabel(
-            "📋 SENKRONIZASYON ADIMLARI:\n\n"
-            "1️⃣ Shimmer cihazını katılımcıya takın\n"
-            "2️⃣ ConsensysPRO'da kaydı hazırlayın\n"
-            "3️⃣ Aşağıdaki butona tıklayın\n"
-            "4️⃣ Countdown başladığında Shimmer'da KAYDI BAŞLATIN\n\n"
-            "⏰ 3-2-1 countdown sırasında her iki sistemde kayıt senkronize edilecek"
-        )
+        instructions = QLabel(get_string('sync_instructions'))
         instructions.setFont(QFont('Arial', 13))
         instructions.setAlignment(Qt.AlignmentFlag.AlignCenter)
         instructions.setStyleSheet("color: white; line-height: 1.8;")
@@ -994,7 +1395,7 @@ class SyncCountdownScreen(QWidget):
         layout.addSpacing(30)
         
         # Start button
-        self.start_btn = QPushButton("🔄 SENKRONIZASYON BAŞLAT")
+        self.start_btn = QPushButton(f"🔄 {get_string('start_sync')}")
         self.start_btn.setFont(QFont('Arial', 16, QFont.Weight.Bold))
         self.start_btn.setFixedHeight(60)
         self.start_btn.setStyleSheet(f"""
@@ -1032,7 +1433,7 @@ class SyncCountdownScreen(QWidget):
             self.countdown_label.setText(str(self.countdown))
         elif self.countdown == 1:
             self.countdown -= 1
-            self.countdown_label.setText("BAŞLA! 🚀")
+            self.countdown_label.setText(f"{get_string('sync_complete')} 🚀")
             self.countdown_label.setStyleSheet(f"color: {Config.SUCCESS_COLOR};")
             
             # Sync timestamp kaydet
@@ -1062,29 +1463,17 @@ class InstructionScreen(QWidget):
         layout.setContentsMargins(50, 50, 50, 50)
         
         # Title
-        title = QLabel("📋 GÖREV TALİMATLARI")
+        title = QLabel(f"📋 {get_string('instructions_title')}")
         title.setFont(QFont('Arial', 24, QFont.Weight.Bold))
         title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         title.setStyleSheet(f"color: {Config.ACCENT_COLOR};")
         layout.addWidget(title)
         
-        # Instructions
-        instructions = """
-Önünüzde 4 farklı kart destesi bulunmaktadır.
-Kasanızda 100.000 TL nakit sermaye vardır.
-
-🃏 Her kart seçiminiz size para kazandırır,
-   ancak bazı kartlar ceza da getirebilir!
-
-🎯 Göreviniz: 100 tur boyunca en yüksek bakiyeye ulaşmak
-
-💡 İpucu: Başlangıçta hangi destenin avantajlı olduğunu bilemezsiniz.
-   Deneyerek öğrenmeniz ve stratejinizi geliştirmeniz beklenmektedir.
-
-⏱️ Her seçiminizde tepki süreniz kaydedilecektir.
-
-⚠️ Önemli: Test boyunca doğal davranın ve içgüdülerinizi takip edin.
-        """
+        # Instructions with dynamic currency
+        lang_config = get_lang_config()
+        instructions = get_string('instructions_text', 
+                                   balance=lang_config["start_balance"],
+                                   currency=lang_config["currency"])
         
         inst_label = QLabel(instructions)
         inst_label.setFont(QFont('Arial', 13))
@@ -1095,7 +1484,7 @@ Kasanızda 100.000 TL nakit sermaye vardır.
         layout.addSpacing(20)
         
         # Continue button
-        continue_btn = QPushButton("▶ BAŞLA")
+        continue_btn = QPushButton(f"▶ {get_string('start')}")
         continue_btn.setFont(QFont('Arial', 16, QFont.Weight.Bold))
         continue_btn.setFixedHeight(50)
         continue_btn.setStyleSheet(f"""
@@ -1141,12 +1530,18 @@ class ExperimentScreen(QWidget):
             logging.info(f"   ✅ Synced with Shimmer countdown")
         logging.info("="*60 + "\n")
         
-        # Decks
+        # Decks - use language-specific penalty schedules
+        lang_config = get_lang_config()
+        penalties_a_lang = lang_config["penalty_a"] * 10  # Extend to 100 trials
+        penalties_b_lang = lang_config["penalty_b"] * 10
+        penalties_c_lang = lang_config["penalty_c"] * 10
+        penalties_d_lang = lang_config["penalty_d"] * 10
+        
         self.decks = [
-            Deck('A', Config.REWARD_BAD_DECK, penalties_A),
-            Deck('B', Config.REWARD_BAD_DECK, penalties_B),
-            Deck('C', Config.REWARD_GOOD_DECK, penalties_C),
-            Deck('D', Config.REWARD_GOOD_DECK, penalties_D)
+            Deck('A', Config.REWARD_BAD_DECK, penalties_a_lang),
+            Deck('B', Config.REWARD_BAD_DECK, penalties_b_lang),
+            Deck('C', Config.REWARD_GOOD_DECK, penalties_c_lang),
+            Deck('D', Config.REWARD_GOOD_DECK, penalties_d_lang)
         ]
         
         self.init_ui()
@@ -1160,14 +1555,14 @@ class ExperimentScreen(QWidget):
         # Top bar
         top_layout = QHBoxLayout()
         
-        self.trial_label = QLabel(f"Tur: {self.trial_num}/{Config.MAX_TRIALS}")
+        self.trial_label = QLabel(f"{get_string('trial')}: {self.trial_num}/{Config.MAX_TRIALS}")
         self.trial_label.setFont(QFont('Arial', 14))
         self.trial_label.setStyleSheet("color: #95a5a6;")
         top_layout.addWidget(self.trial_label)
         
         top_layout.addStretch()
         
-        self.balance_label = QLabel(f"💰 BAKİYE: {self.balance:,} TL")
+        self.balance_label = QLabel(f"💰 {get_string('balance')}: {self.balance:,} {get_lang_config()['currency']}")
         self.balance_label.setFont(QFont('Arial', 16, QFont.Weight.Bold))
         self.balance_label.setStyleSheet(f"color: {Config.ACCENT_COLOR};")
         top_layout.addWidget(self.balance_label)
@@ -1196,7 +1591,7 @@ class ExperimentScreen(QWidget):
         main_layout.addSpacing(30)
         
         # Instruction
-        self.instruction_label = QLabel("Bir kart destesi seçin")
+        self.instruction_label = QLabel(get_string('select_deck'))
         self.instruction_label.setFont(QFont('Arial', 18))
         self.instruction_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.instruction_label.setStyleSheet("color: white;")
@@ -1336,9 +1731,10 @@ class ExperimentScreen(QWidget):
         # Show feedback
         self.show_feedback(reward, penalty, net)
         
-        # Update UI
-        self.trial_label.setText(f"Tur: {self.trial_num}/{Config.MAX_TRIALS}")
-        self.balance_label.setText(f"💰 BAKİYE: {self.balance:,} TL")
+        # Update UI with localized strings
+        currency = get_lang_config()['currency']
+        self.trial_label.setText(f"{get_string('trial')}: {self.trial_num}/{Config.MAX_TRIALS}")
+        self.balance_label.setText(f"💰 {get_string('balance')}: {self.balance:,} {currency}")
         self.progress.setValue(self.trial_num)
         
         # Check if complete
@@ -1349,19 +1745,21 @@ class ExperimentScreen(QWidget):
     
     def show_feedback(self, reward: int, penalty: int, net: int):
         """Geri bildirimi göster"""
-        self.reward_label.setText(f"✅ KAZANÇ: +{reward:,} TL")
+        currency = get_lang_config()['currency']
+        
+        self.reward_label.setText(f"✅ {get_string('reward').upper()}: +{reward:,} {currency}")
         self.reward_label.setStyleSheet(f"color: {Config.SUCCESS_COLOR};")
         
         if penalty < 0:
-            self.penalty_label.setText(f"❌ CEZA: {penalty:,} TL")
+            self.penalty_label.setText(f"❌ {get_string('penalty').upper()}: {penalty:,} {currency}")
             self.penalty_label.setStyleSheet(f"color: {Config.ERROR_COLOR};")
         else:
-            self.penalty_label.setText("✨ CEZA YOK")
+            self.penalty_label.setText(f"✨ {get_string('no_penalty').upper()}")
             self.penalty_label.setStyleSheet("color: #95a5a6;")
         
         net_color = Config.SUCCESS_COLOR if net >= 0 else Config.ERROR_COLOR
         net_symbol = "📈" if net >= 0 else "📉"
-        self.net_label.setText(f"{net_symbol} NET: {net:+,} TL")
+        self.net_label.setText(f"{net_symbol} {get_string('net').upper()}: {net:+,} {currency}")
         self.net_label.setStyleSheet(f"color: {net_color};")
         
         self.feedback_widget.setVisible(True)
@@ -1396,7 +1794,7 @@ class CompletionScreen(QWidget):
         layout.setContentsMargins(50, 50, 50, 50)
         
         # Title
-        title = QLabel("🎉 TEST TAMAMLANDI!")
+        title = QLabel(f"🎉 {get_string('test_complete')}")
         title.setFont(QFont('Arial', 32, QFont.Weight.Bold))
         title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         title.setStyleSheet(f"color: {Config.SUCCESS_COLOR};")
@@ -1405,18 +1803,15 @@ class CompletionScreen(QWidget):
         layout.addSpacing(30)
         
         # Results
+        currency = get_lang_config()['currency']
         results = f"""
-        💰 Son Bakiye: {self.final_balance:,} TL
+        💰 {get_string('final_balance_label')}: {self.final_balance:,} {currency}
         
-        📊 Net Değişim: {self.net_change:+,} TL
+        📊 {get_string('net_change')}: {self.net_change:+,} {currency}
         
-        ✅ {Config.MAX_TRIALS} deneme tamamlandı
+        ✅ {get_string('trials_completed', count=Config.MAX_TRIALS)}
         
-        📁 Sonuçlarınız kaydedildi:
-           • CSV (Ham veri)
-           • PNG (Grafikler)
-           • TXT (Özet rapor)
-           • Veritabanı
+        {get_string('results_saved')}
         """
         
         results_label = QLabel(results)
@@ -1432,7 +1827,7 @@ class CompletionScreen(QWidget):
         btn_layout.setSpacing(15)
         
         # Ana Menü button
-        menu_btn = QPushButton("🏠 ANA MENÜ")
+        menu_btn = QPushButton(f"🏠 {get_string('main_menu')}")
         menu_btn.setFont(QFont('Arial', 16, QFont.Weight.Bold))
         menu_btn.setFixedHeight(50)
         menu_btn.setStyleSheet(f"""
@@ -1450,7 +1845,7 @@ class CompletionScreen(QWidget):
         btn_layout.addWidget(menu_btn)
         
         # Sonuçları Görüntüle button
-        view_btn = QPushButton("📊 SONUÇLARI GÖRÜNTÜLE")
+        view_btn = QPushButton(f"📊 {get_string('view_results')}")
         view_btn.setFont(QFont('Arial', 16, QFont.Weight.Bold))
         view_btn.setFixedHeight(50)
         view_btn.setStyleSheet("""
@@ -1506,7 +1901,19 @@ class IGTMainWindow(QMainWindow):
         self.stacked_widget = QStackedWidget()
         self.setCentralWidget(self.stacked_widget)
         
-        # Screens
+        # Apply dark theme first
+        self.apply_dark_theme()
+        
+        # Language Selection (First Screen)
+        self.language_screen = LanguageSelectionDialog()
+        self.language_screen.language_selected.connect(self.on_language_selected)
+        self.stacked_widget.addWidget(self.language_screen)
+        
+        logging.info("🚀 IGT Uygulaması başlatıldı")
+    
+    def on_language_selected(self, lang: str):
+        """Dil seçildikten sonra ana ekranları oluştur"""
+        # Create screens after language is selected (so they use localized strings)
         # Ana Menü
         self.main_menu_screen = MainMenuScreen()
         self.main_menu_screen.start_new_test_signal.connect(self.show_welcome)
@@ -1523,10 +1930,8 @@ class IGTMainWindow(QMainWindow):
         self.welcome_screen.start_signal.connect(self.show_instructions)
         self.stacked_widget.addWidget(self.welcome_screen)
         
-        # Apply dark theme
-        self.apply_dark_theme()
-        
-        logging.info("🚀 IGT Uygulaması başlatıldı")
+        # Show main menu
+        self.show_main_menu()
     
     def apply_dark_theme(self):
         """Koyu tema uygula"""

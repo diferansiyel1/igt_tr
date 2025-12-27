@@ -1,0 +1,38 @@
+==================================================
+IGT DENEY ÖZET RAPORU
+==================================================
+
+Katılımcı ID: D20251228_003050153
+Yaş: 17
+Cinsiyet: F
+Tarih: 2025-12-28 00:37
+
+--------------------------------------------------
+TEMEL METRİKLER
+--------------------------------------------------
+Net IGT Skoru: +26
+   [(C+D) - (A+B) seçimleri]
+
+Avantajlı Deste (C+D): 63 seçim
+Dezavantajlı Deste (A+B): 37 seçim
+
+Başlangıç Bakiyesi: 100,000 TL
+Son Bakiye: 181,250 TL
+Net Değişim: +81,250 TL
+
+--------------------------------------------------
+BLOK BAZLI NET SKORLAR
+--------------------------------------------------
+Blok 1: +0
+Blok 2: +2
+Blok 3: +6
+Blok 4: +8
+Blok 5: +10
+
+--------------------------------------------------
+DESTE SEÇİM DETAYLARI
+--------------------------------------------------
+Deste A (Dezavantajlı): 9 seçim (9.0%)
+Deste B (Dezavantajlı): 28 seçim (28.0%)
+Deste C (Avantajlı): 27 seçim (27.0%)
+Deste D (Avantajlı): 36 seçim (36.0%)

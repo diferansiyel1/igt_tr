@@ -27,7 +27,7 @@ python validation/simulation.py
 
 If you use this software in your research, please cite it using the metadata in [`CITATION.cff`](CITATION.cff):
 
-> Ozel, H. F. (2025). *PyIGT-Shimmer: A Modern Iowa Gambling Task Implementation with Physiological Synchronization* (Version 3.0.0). https://github.com/hfehmi/igt_tr
+> Ozel, H. F. (2025). *PyIGT-Shimmer: A Modern Iowa Gambling Task Implementation with Physiological Synchronization* (Version 3.0.0). https://github.com/diferansiyel1/igt_tr
 
 ## License
 

@@ -31,4 +31,6 @@ If you use this software in your research, please cite it using the metadata in 
 
 ## License
 
-[MIT](LICENSE) © 2025 Dr. H. Fehmi Ozel
+[CC BY-NC 4.0](LICENSE) © 2025 Dr. H. Fehmi Ozel
+
+*Free for academic and research use. Commercial use prohibited.*
